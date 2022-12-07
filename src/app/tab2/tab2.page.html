@@ -1,17 +1,73 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      Events
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 2</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6">
+        <ion-card>
+          <img alt="StoryTime" src="https://res.cloudinary.com/simpleview/image/upload/w_1920,c_limit/crm/calgary/Untitled-design-12-_806EC41A-5056-A36A-08E31C4B25F4BE68_8073049e-5056-a36a-080cb4c4b9f98dae.jpg" />
+          <ion-card-header>
+            <ion-card-title>Story Time At Heritage Park</ion-card-title>
+            <ion-card-subtitle><ion-icon name="arrow-forward-outline"></ion-icon>Oct 19 - Dec 14</ion-card-subtitle>
+          </ion-card-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+          <ion-card-content>
+            Treat your little ones to a family-friendly storytelling session at Calgary's Heritage Park!
+          </ion-card-content>
+          <ion-button expand="block" color="success" (click)="presentAlert()">Let's Go!</ion-button>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card>
+          <img class="putt" alt="potion putt" src="https://res.cloudinary.com/simpleview/image/upload/w_1920,c_limit/crm/calgary/258195855_993311254555893_3437318008615448162_n_0FD8DB7A-5056-A36A-08DD893D32C2ED97_0ffc002a-5056-a36a-083ad13c27ea28d5.jpg" />
+          <ion-card-header>
+            <ion-card-title>Potion Putt: <br> Mini Golf</ion-card-title>
+            <ion-card-subtitle><ion-icon name="arrow-forward-outline"></ion-icon>Nov 03 - Jan 22</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Test your magic & wizarding putt putt skills on the golf course.. <br> A crazy golf course…
+          </ion-card-content>
+          <ion-button expand="block" color="success" (click)="presentAlert()">Let's Go!</ion-button>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card>
+          <img alt="Jazz" src="https://res.cloudinary.com/simpleview/image/upload/w_1920,c_limit/crm/calgary/estbrew_20211209_jazz-7---cropped_794BCB28-5056-A36A-080C44CCB4D8BFAE_7952b45c-5056-a36a-08e74ad6c9d14208.jpg" />
+          <ion-card-header>
+            <ion-card-title>Live Jazz At The Establishment</ion-card-title>
+            <ion-card-subtitle><ion-icon name="arrow-forward-outline"></ion-icon>Nov 3 - Dec 15</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Grab a brew, sit back, and enjoy the Wallpaper Trio as they take over the Establishment taproom.
+          </ion-card-content>
+          <ion-button expand="block" color="success" (click)="presentAlert()">Let's Go!</ion-button>
+        </ion-card>
+      </ion-col>
+
+      <ion-col size="6">
+        <ion-card>
+          <img class="putt" alt="Santa" src="https://res.cloudinary.com/simpleview/image/upload/w_1920,c_limit/crm/calgary/Capturesg_AF26E5C1-5056-A36A-08222B7898DB9CDC_af298ac5-5056-a36a-08bdfc9c7188d601.jpg"/>
+          <ion-card-header>
+            <ion-card-title>Santa's Enchanted Forest</ion-card-title>
+            <ion-card-subtitle><ion-icon name="arrow-forward-outline"></ion-icon>Nov 12 - Dec 24</ion-card-subtitle>
+          </ion-card-header>
+        
+          <ion-card-content>
+            Experience holiday magic as Santa returns to Southcentre Mall and take part in one of the city.
+          </ion-card-content>
+          <ion-button expand="block" color="success" (click)="presentAlert()">Let's Go!</ion-button>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

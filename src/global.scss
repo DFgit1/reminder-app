@@ -24,3 +24,64 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+h1{
+    font-family: "pacifico";
+    font-size: 80px;
+    text-align: center;
+    color: #FF2E63;
+    margin: 2px 0;
+    padding: 0;
+    
+}
+
+
+h3 {
+    font-family: "pacifico";
+    font-size: 30px;
+    text-align: center;
+    color: #08D9D6;    
+}
+
+ion-title {
+    font-family: "pacifico";
+    color: #EAEAEA;
+    font-size: 30px;
+
+}
+
+ion-content{
+    --ion-background-color:#252A34;
+}
+
+ion-label{
+    font-family: "pacifico";
+    color: #EAEAEA;
+    font-size: 14px;
+}
+
+
+ion-icon:active{
+color: #FF2E63;
+}
+
+ion-card {
+    font-family: "comfortaa";
+    color: #EAEAEA;
+}
+
+ion-card-title {
+    font-size: 18px;
+}
+
+ion-card-content {
+    font-size: 12px;
+}
+
+ion-button {
+    font-family: "comfortaa";
+    color: #252A34;
+    font-weight: 700;
+
+}
